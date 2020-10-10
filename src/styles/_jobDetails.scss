@@ -1,0 +1,130 @@
+button {
+  background: none;
+  border: none;
+  width: 10%;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+  color: rgb(2, 88, 168);
+  font-size: 18px;
+  &:hover {
+    color: rgb(66, 143, 216);
+  }
+}
+.main-page {
+  display: flex;
+  width: 60%;
+  min-height: 100vh;
+  margin: 0 auto 0 auto;
+  background: white;
+  padding: 20px;
+  flex-direction: column;
+  border: 2px solid rgb(224, 217, 217);
+
+  .title-box {
+    display: flex;
+    width: 100%;
+    min-height: 7vh;
+    flex-direction: column;
+    border-bottom: 2px solid whitesmoke;
+    .location {
+      width: 100%;
+      min-height: 1vh;
+      padding-bottom: 5px;
+      p {
+        color: rgb(141, 138, 138);
+        font-size: 13px;
+      }
+    }
+    .title {
+      h2 {
+        color: rgb(44, 43, 43);
+      }
+    }
+  }
+  .details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 90vh;
+    justify-content: space-between;
+    padding: 20px;
+    .main-column {
+      display: flex;
+      width: 65%;
+      height: 100%;
+      flex-direction: column;
+      font-size: 12px;
+      line-height: 1.8;
+      p {
+        strong {
+          line-height: 3;
+        }
+      }
+    }
+    .sidebar-column {
+      display: flex;
+      flex-direction: column;
+      width: 35%;
+      min-height: 20vh;
+      align-items: center;
+      padding: 20px;
+      justify-content: space-evenly;
+      .company {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        min-height: 25%;
+        padding: 5px;
+        background: whitesmoke;
+        border: 2px solid rgb(224, 217, 217);
+        border-radius: 8px;
+        .company-details {
+          width: 100%;
+          height: 100%;
+          font-size: 18px;
+          text-transform: capitalize;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          hr {
+            width: 95%;
+            margin: 5px;
+          }
+          img {
+            width: 100%;
+            height: 20%;
+          }
+        }
+      }
+    }
+
+    .apply {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto 0 auto;
+      width: 80%;
+      min-height: 25%;
+      padding: 5px;
+      background: rgb(255, 249, 172);
+      border: 2px solid rgb(224, 217, 217);
+      border-radius: 8px;
+      .apply-details {
+        width: 100%;
+        height: 100%;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        hr {
+          width: 95%;
+          margin: 5px;
+        }
+        div {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

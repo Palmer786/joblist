@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    min-height: 6vh;
+    background: rgb(109, 169, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(70, 90, 109);
+    border-top: 2px solid rgb(70, 90, 109);
+    margin-bottom: 20px;
+    h2 {
+      color: white;
+      font-weight: bolder;
+      &::first-letter {
+        font-size: x-large;
+      }
+    }
+  }
